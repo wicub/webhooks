@@ -23,5 +23,5 @@ cd /home/www/root/exhibiton.hellosinglegir.com > /dev/null &
 # The remote upstream branch should only be configured once, unless the remote
 # name changes
 #
-#git pull origin master
-git stash
+git pull origin master
+#git stash
