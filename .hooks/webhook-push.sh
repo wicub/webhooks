@@ -8,7 +8,7 @@
 #
 #     cd ..
 #
-cd /home/www/root/exhibiton.hellosinglegir.com > /dev/null &
+cd /home/wwwroot/exhibiton.hellosinglegirl.com > /dev/null &
 
 # Pulls currently configured upstream branch. To configure the upstream branch,
 # use the following command:
