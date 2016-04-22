@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
 
 ## GitLab push hook update script
@@ -9,7 +9,8 @@
 #
 #     cd ..
 #
-cd /home/wwwroot/exhibition.hellosinglegirl.com > /dev/null &
+#cd /home/wwwroot/exhibition.hellosinglegirl.com && git stash #> /dev/null &
+cd /home/wwwroot/exhibition.hellosinglegirl.com && git pull origin master
 
 # Pulls currently configured upstream branch. To configure the upstream branch,
 # use the following command:
@@ -24,5 +25,4 @@ cd /home/wwwroot/exhibition.hellosinglegirl.com > /dev/null &
 # The remote upstream branch should only be configured once, unless the remote
 # name changes
 #
-git pull origin master
-#git stash
+
