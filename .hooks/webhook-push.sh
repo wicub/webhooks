@@ -12,7 +12,7 @@
 #cd /home/wwwroot/exhibition.hellosinglegirl.com && git stash #> /dev/null &
 #cd /home/wwwroot/exhibition.hellosinglegirl.com && git pull origin master
 
-cd /var/www/html/exhibition && git pull origin master
+cd /home/www-data/html/exhibition && git pull origin master
 
 # Pulls currently configured upstream branch. To configure the upstream branch,
 # use the following command:
