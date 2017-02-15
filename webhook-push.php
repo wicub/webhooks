@@ -19,7 +19,7 @@ $ref = 'refs/heads/master';
 /**
  * password,根据不同的git服务商来设定
  */
-$password = 'niuqiang';
+$password = 'password';
 
 /**
  * 验证部分
