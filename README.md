@@ -5,7 +5,7 @@
 1.保证代码目录下的所有内容为www用户组。chown -R www:www /code
 2.保证部署脚本也是www用户组。chown -R www:www /code
 3.保证xxx.sh脚本为777权限。
-4.需要将www用户组的sshkey加到代码仓库中，生成方式：sudo -u www ssh-keygen -t rsa -C "g.sunshineboy@gmail.com"
+4.需要将www用户组的sshkey加到代码仓库中，生成方式：sudo -u www ssh-keygen -t rsa -C "your@mail.com"
 
 Debug小技巧：
 可以现在服务器上测试是否可行，测试方式如下：
